@@ -1,0 +1,19 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body><center><strong>welc0me to 2020UNCTF!!</strong></center><code><span style="color: #000000">
+<span style="color: #0000BB">&lt;?php
+<br></span><span style="color: #007700">echo</span><span style="color: #DD0000">'&lt;center&gt;&lt;strong&gt;welc0me&nbsp;to&nbsp;2020UNCTF!!&lt;/strong&gt;&lt;/center&gt;'</span><span style="color: #007700">;
+<br></span><span style="color: #0000BB">highlight_file</span><span style="color: #007700">(</span><span style="color: #0000BB">__FILE__</span><span style="color: #007700">);
+<br></span><span style="color: #0000BB">$url&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">$_GET</span><span style="color: #007700">[</span><span style="color: #DD0000">'url'</span><span style="color: #007700">];
+<br>if(</span><span style="color: #0000BB">preg_match</span><span style="color: #007700">(</span><span style="color: #DD0000">'/unctf\.com/'</span><span style="color: #007700">,</span><span style="color: #0000BB">$url</span><span style="color: #007700">)){
+<br>&nbsp;&nbsp;&nbsp;&nbsp;if(!</span><span style="color: #0000BB">preg_match</span><span style="color: #007700">(</span><span style="color: #DD0000">'/php|file|zip|bzip|zlib|base|data/i'</span><span style="color: #007700">,</span><span style="color: #0000BB">$url</span><span style="color: #007700">)){
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$url</span><span style="color: #007700">=</span><span style="color: #0000BB">file_get_contents</span><span style="color: #007700">(</span><span style="color: #0000BB">$url</span><span style="color: #007700">);
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo(</span><span style="color: #0000BB">$url</span><span style="color: #007700">);
+<br>&nbsp;&nbsp;&nbsp;&nbsp;}else{
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;echo(</span><span style="color: #DD0000">'error!!'</span><span style="color: #007700">);
+<br>&nbsp;&nbsp;&nbsp;&nbsp;}
+<br>}else{
+<br>&nbsp;&nbsp;&nbsp;&nbsp;echo(</span><span style="color: #DD0000">"error"</span><span style="color: #007700">);
+<br>}
+<br></span><span style="color: #0000BB">?&gt;</span>
+</span>
+</code>error</body></html>

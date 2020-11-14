@@ -1,0 +1,9 @@
+某日，鞍山大法官在点外卖时点了2个韭菜盒子，商家只送了1个，大法官给了该商家一个差评
+
+次日，该大法官又在该商家点了1个韭菜盒子，希望商家能补上上次的韭菜盒子，而商家又只发了一个韭菜盒子
+
+这名大法官一天正常要吃2个韭菜盒子，而该商家每天只给他1个韭菜盒子，请问该名大法官缺的营养这一块怎么补
+
+ottttootoootooooottoootooottotootttootooottotttooootttototoottooootoooottotoottottooooooooottotootto
+
+flag格式：unctf{}
